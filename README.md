@@ -1,6 +1,14 @@
 # lifecycle-of-plastics
 
-## Project setup
+## DESIGN FILES: 
+
+[CLICK HERE TO OPEN FIGMA](https://www.figma.com/file/agtfGSDfZCmw1zuBa9OuPV/Lifecycle-of-plastics-(vue)?node-id=0%3A1)
+
+
+<br>
+<br>
+
+## Project setup:
 ```
 npm install
 ```
