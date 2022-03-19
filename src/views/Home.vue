@@ -11,8 +11,9 @@
 <script>
 import Header from "../components/Header.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
+import LevelTwo from "../components/levels/LevelTwo.vue";
 import LevelThree from "../components/levels/LevelThree.vue";
-import LevelFour from "../components/levels/LevelFour.vue"
+import LevelFour from "../components/levels/LevelFour.vue";
 
 export default {
   name: 'Home',
@@ -22,6 +23,7 @@ export default {
   components: {
     Header,
     LevelOne,
+    LevelTwo,
 	  LevelThree,
     LevelFour
   },
