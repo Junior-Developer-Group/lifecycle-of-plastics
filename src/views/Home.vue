@@ -1,18 +1,43 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <Header></Header>
+    <LevelOne></LevelOne>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Header from "../components/Header.vue";
+import LevelOne from "../components/levels/LevelOne.vue";
 
 export default {
   name: 'Home',
+
+  props: [],
+
   components: {
-    HelloWorld
+    Header,
+    LevelOne
+},
+  data() {
+    return {
+
+    }
+  },
+  created() {
+
+  },
+  mounted(){
+
+  },
+  methods: {
+
+  },
+  computed: {
+
+  },
+  beforeDestroy() {
+
   }
 }
 </script>
