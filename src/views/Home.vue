@@ -4,13 +4,15 @@
     <Header></Header>
     <LevelOne></LevelOne>
     <LevelFour></LevelFour>
+    <LevelFive></LevelFive>
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
-import LevelFour from "../components/levels/LevelFour.vue"
+import LevelFour from "../components/levels/LevelFour.vue";
+import LevelFive from "../components/levels/LevelFive.vue";
 
 export default {
   name: 'Home',
@@ -20,7 +22,8 @@ export default {
   components: {
     Header,
     LevelOne,
-    LevelFour
+    LevelFour,
+    LevelFive
 },
   data() {
     return {
