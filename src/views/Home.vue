@@ -9,6 +9,7 @@
 <script>
 import Header from "../components/Header.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
+import LevelTwo from "../components/levels/LevelTwo.vue";
 
 export default {
   name: 'Home',
@@ -17,7 +18,8 @@ export default {
 
   components: {
     Header,
-    LevelOne
+    LevelOne,
+    LevelTwo
 },
   data() {
     return {
