@@ -3,7 +3,8 @@
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <Header></Header>
     <LevelOne></LevelOne>
-	<LevelThree/>
+	  <LevelThree/>
+    <LevelFour></LevelFour>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from "../components/Header.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
 import LevelThree from "../components/levels/LevelThree.vue";
+import LevelFour from "../components/levels/LevelFour.vue"
 
 export default {
   name: 'Home',
@@ -20,8 +22,9 @@ export default {
   components: {
     Header,
     LevelOne,
-	LevelThree
-},
+	  LevelThree,
+    LevelFour
+  },
   data() {
     return {
 
