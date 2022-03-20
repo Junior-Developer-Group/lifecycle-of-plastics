@@ -7,6 +7,7 @@
     <LevelThree></LevelThree>
     <LevelFour></LevelFour>
     <LevelFive></LevelFive>
+    <Level-six></Level-six>
   </div>
 </template>
 
@@ -18,7 +19,7 @@ import LevelTwo from "../components/levels/LevelTwo.vue";
 import LevelThree from "../components/levels/LevelThree.vue";
 import LevelFour from "../components/levels/LevelFour.vue";
 import LevelFive from "../components/levels/LevelFive.vue";
-
+import LevelSix from "../components/levels/LevelSix.vue";
 export default {
 
   // set a name for the current component 
@@ -35,7 +36,8 @@ export default {
     LevelTwo,
     LevelThree,
     LevelFour,
-    LevelFive
+    LevelFive,
+    LevelSix
   },
 
   // data are like variables in vanilla JS
