@@ -1,11 +1,11 @@
 <template>
-	<section class="beach-wave" >
+	<div class="beach-wave" >
 		<img src="../../assets/beach-wave.png" alt="Beach waves">
-	</section>
+	</div>
 </template>
 <script>
 export default {
-	name:'BeachWave',
+	name:'Wave',
 }
 </script>
 
