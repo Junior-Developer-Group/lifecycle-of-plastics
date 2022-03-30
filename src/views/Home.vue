@@ -2,7 +2,7 @@
   <div class="home">
     <!-- LIST ANY COMPONENTS YOU'D LIKE TO SEE ON THE SCREEN HERE -->
     <Header></Header>
-	<BeachWave/>
+	<Beach/>
     <LevelOne></LevelOne>
     <LevelTwo></LevelTwo>
     <LevelThree></LevelThree>
@@ -15,7 +15,7 @@
 <script>
 /// import the component from the folder we created it in
 import Header from "../components/Header.vue";
-import BeachWave from "../components/beach/BeachWave.vue";
+import Beach from "../components/beach/Beach.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
 import LevelTwo from "../components/levels/LevelTwo.vue";
 import LevelThree from "../components/levels/LevelThree.vue";
@@ -34,7 +34,7 @@ export default {
   // register components inside of the component block
   components: {
     Header,
-	BeachWave,
+	Beach,
     LevelOne,
     LevelTwo,
     LevelThree,
