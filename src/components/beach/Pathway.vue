@@ -1,8 +1,11 @@
 <template>
 	<div class="beach-pathway" role="group">
-		<button v-for="step in numSteps" :key="step"
-		:class="['beach-pathway__step', step == selectedStep? 'selected':'']" 
-		@click="handleStepClick(step)">
+		<button 
+			v-for="step in numSteps" :key="step"
+			class="beach-pathway__step"
+			:class="[step == selectedStep ? 'selected' : '']" 
+			@click="handleStepClick(step)"
+		>
 		</button>
 		<p aria-live="polite">
 			<strong v-if="step == selectedStep">
@@ -17,13 +20,14 @@ export default {
 	mounted(){
 		this.updateSurpriseStep();
 	},
-	data:()=>(
-		{
+	data() {
+		return {
 			numSteps:16,
 			surpriseStep:-1,
-			selectedStep:-1
+			selectedStep:-1,
+			step: null,
 		}
-	),
+	},
 	methods:{
 		updateSurpriseStep(){
 			const prevSurpriseStep = this.surpriseStep
