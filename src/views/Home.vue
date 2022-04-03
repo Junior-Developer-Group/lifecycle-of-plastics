@@ -2,6 +2,7 @@
   <div class="home">
     <!-- LIST ANY COMPONENTS YOU'D LIKE TO SEE ON THE SCREEN HERE -->
     <Header></Header>
+	<CityBlock/>
 	<Beach/>
     <LevelOne></LevelOne>
     <LevelTwo></LevelTwo>
@@ -15,6 +16,7 @@
 <script>
 /// import the component from the folder we created it in
 import Header from "../components/Header.vue";
+import CityBlock from "../components/cityblock/CityBlock.vue";
 import Beach from "../components/beach/Beach.vue";
 import LevelOne from "../components/levels/LevelOne.vue";
 import LevelTwo from "../components/levels/LevelTwo.vue";
@@ -34,6 +36,7 @@ export default {
   // register components inside of the component block
   components: {
     Header,
+	CityBlock,
 	Beach,
     LevelOne,
     LevelTwo,
