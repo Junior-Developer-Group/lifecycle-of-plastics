@@ -20,7 +20,7 @@ export default {
 .city-block{
 	height:700px;
 	background-color:#9798A1;
-	padding:0 50px;
+	padding:200px 50px 0 50px;
 	&__buildings{
 		display:flex;
 		justify-content: space-between;
